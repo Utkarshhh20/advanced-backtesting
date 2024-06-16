@@ -105,6 +105,7 @@ def monte_carlo_simulation():
         st.pyplot(fig)
 
 # Adding a page for user-defined strategies
+'''
 def user_defined_strategy():
     st.title("User-Defined Strategy")
 
@@ -120,23 +121,7 @@ def user_defined_strategy():
         results = apply_strategy(strategy_code)
         st.write("Strategy Results:")
         st.write(results)
-
-def user_defined_strategy():
-    st.title("User-Defined Strategy")
-
-    st.write("""
-    You can define your own trading strategy using Python code.
-    Please ensure that your strategy code defines a variable `results`
-    that holds the output data to be displayed.
-    """)
-    
-    strategy_code = st.text_area("Enter your strategy code here:", height=300)
-
-    if st.button("Run Strategy"):
-        results = apply_strategy(strategy_code)
-        st.write("Strategy Results:")
-        st.write(results)
-
+'''
 def no_code_strategy_builder():
     st.title("No-Code Strategy Builder")
 
@@ -172,7 +157,7 @@ def no_code_strategy_builder():
         
 def main():
     st.sidebar.title("Navigation")
-    page = st.sidebar.radio("Go to", ["Home", "Optimization", "Cross-Validation", "Monte Carlo Simulation", "User-Defined Strategy"])
+    page = st.sidebar.radio("Go to", ["Home", "Optimization", "Cross-Validation", "Monte Carlo Simulation", "Golden Crossover Strategy"])
 
     if page == "Home":
         home()
@@ -182,9 +167,9 @@ def main():
         cross_validation()
     elif page == "Monte Carlo Simulation":
         monte_carlo_simulation()
-    elif page == "User-Defined Strategy":
-        user_defined_strategy()
-    elif page == "No-Code Strategy Builder":
+ #   elif page == "User-Defined Strategy":
+ #       user_defined_strategy()
+    elif page == "Golden Crossover Strategy":
         no_code_strategy_builder()
 
 if __name__ == "__main__":
