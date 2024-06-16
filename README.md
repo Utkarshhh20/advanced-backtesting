@@ -1,4 +1,4 @@
-# Scientific Backtesting 
+# Scientific Backtester
 
 ## Overview
 
