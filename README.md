@@ -1,4 +1,4 @@
-# Advanced Backtesting Python Code
+# Scientific Backtesting 
 
 ## Overview
 
