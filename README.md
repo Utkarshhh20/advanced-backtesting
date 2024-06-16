@@ -15,9 +15,6 @@ The Advanced Backtesting tool is a comprehensive framework designed to evaluate 
 ### Monte Carlo Simulation
 - **Monte Carlo Simulation**: Generates multiple price paths based on historical data to assess the strategy's performance under different market scenarios. It helps to understand the potential risks and returns by simulating numerous future price movements.
 
-### User-Defined Strategies
-- **User-Defined Strategies**: Allows users to define and test their own trading strategies using Python code. This flexibility enables the application of custom indicators, signals, and rules tailored to specific trading requirements.
-
 ### No-Code Strategy Builder
 - **No-Code Strategy Builder**: An intuitive interface for building trading strategies without writing code. Users can select from predefined indicators and set parameters to create and backtest their strategies.
 
