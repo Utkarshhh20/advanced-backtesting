@@ -1,4 +1,4 @@
-# Scientific Backtester
+# BackTrade
 
 ## Overview
 
